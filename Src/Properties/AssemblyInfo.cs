@@ -15,6 +15,7 @@ using NUnit.Framework;
 [assembly: AssemblyCopyright("Copyright © Microsoft 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+//NUnit to allow parallelism
 [assembly: Parallelizable(ParallelScope.Fixtures)]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
