@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace FordTA2_AAT.Features
+namespace AAT.Features
 {
     using TechTalk.SpecFlow;
     

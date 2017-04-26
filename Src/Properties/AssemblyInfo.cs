@@ -7,11 +7,11 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 using NUnit.Framework;
 
-[assembly: AssemblyTitle("FordTA2_AAT")]
+[assembly: AssemblyTitle("AAT")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("FordTA2_AAT")]
+[assembly: AssemblyProduct("AAT")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

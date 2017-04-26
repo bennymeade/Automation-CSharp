@@ -11,7 +11,7 @@ using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Remote;
 using TechTalk.SpecFlow;
 
-namespace FordTA2_AAT.Config
+namespace AAT.Config
 {
     public class CustomRemoteWebDriver : RemoteWebDriver
     {

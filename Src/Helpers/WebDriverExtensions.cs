@@ -1,10 +1,10 @@
 ﻿using System;
-using FordTA2_AAT.Config;
+using AAT.Config;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 
-namespace FordTA2_AAT.Helpers
+namespace AAT.Helpers
 {
     public class WebDriverExtensions
     {

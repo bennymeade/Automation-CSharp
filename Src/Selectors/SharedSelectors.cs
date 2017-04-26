@@ -1,7 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 
-namespace FordTA2_AAT.Selectors
+namespace AAT.Selectors
 {
     public class SharedSelectors
     {

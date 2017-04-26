@@ -1,10 +1,10 @@
-﻿using FordTA2_AAT.Helpers;
-using FordTA2_AAT.Selectors;
+﻿using AAT.Helpers;
+using AAT.Selectors;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using TechTalk.SpecFlow;
 
-namespace FordTA2_AAT.StepDefinitions
+namespace AAT.StepDefinitions
 {
     [Binding]
     public class SharedSteps
