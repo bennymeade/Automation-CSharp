@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="TransformConfiguration" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <UsingTask AssemblyFile="C:\Windows\System32\config\systemprofile\AppData\Local\Microsoft\MSBuild\SlowCheetah\v2.5.11\SlowCheetah.Xdt.dll" TaskName="TransformXml" />
+
+  <Target Name="TransformConfiguration">
+
+    <Message Text="Configuring PMIEF AAT for $(PlatformBrowser) ..."/>
+
+    <TransformXml Source="FordTA2_AAT\bin\FordTA2_AAT.dll.config"
+                  Destination="FordTA2_AAT\bin\FordTA2_AAT.dll.config"
+                  Transform="FordTA2_AAT\bin\App.$(PlatformBrowser).config" />
+  </Target>
+
+</Project>
