@@ -74,6 +74,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Config\Hooks.cs" />
     <Compile Include="Features\Homepage.feature.cs">
       <AutoGen>True</AutoGen>
